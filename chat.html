@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chat App</title>
+
+    <script src='https://cdn.scaledrone.com/scaledrone.min.js'></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <main>
+        <section id="chat" class="wrapper">
+            <div class="container">
+                <div class="row">
+                    <div id="senderContainer" class="col sender-container"></div>
+                    <div id="senderUsernames"></div>
+                    <div class="col user-input-wrapper">
+                        <input id="message" type="text">
+                    </div>
+                    <div class="btn-submit">
+                        <button onclick="submit()">Send</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="./assets/js/controllers/checkUserInfo.js"></script>
+    <script src="./assets/js/api/chat.js"></script>
+</body>
+</html>
