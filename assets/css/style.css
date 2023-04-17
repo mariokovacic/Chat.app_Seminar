@@ -83,7 +83,7 @@ p {
 
 .sender-container {
     width: 100%;
-    height: 100%;
+    height: 70vh;
     overflow-x: hidden;
     overflow-y: scroll;
     background-color: rgb(189, 215, 232);
